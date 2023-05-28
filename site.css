@@ -1,0 +1,137 @@
+img{width:100%}
+p{margin:0}
+body{
+    font-family: Arial;
+    padding-top: 200px;
+    background-color: rgb(254, 210, 231);
+    padding-left: 100px;
+    padding-right:100px
+}
+main{
+    
+}
+
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:175px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightpink;
+    z-index: 100;
+}
+.menu-bar{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    border-right-width: 1px;
+    border-right-style:solid;
+    border-right-color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items: center;
+    height: 90px;
+}
+.menu-bar img{
+    margin-right: 20px;
+    height: 70px;
+}
+.menu-bar div{
+    font-size: 40px;
+}
+.cart-button{
+    padding: 30px 60px 30px 60px;
+    font-family: Arial;
+    font-weight: 500;
+    font-size: 40px;
+    background-color: rgb(255, 163, 177);
+    border-radius: 400px;
+    border:none;
+    box-shadow: 0 0 7px rgba(255, 255, 255,0.5);
+    transition: 0.2s;
+}
+.cart-button:hover{
+    transform: scale(1.1);
+}
+
+.delivery-section p{
+    margin: 0;
+}
+
+.delivery-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    font-size:50px;
+    padding-bottom: 7px ;
+    font-family: Cedarville Cursive,Arial;
+}
+
+.titre{
+    font-family: Cedarville Cursive,Arial;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    column-gap: 50px;
+    row-gap: 50px;
+    align-items: center;
+}
+.item{
+    display:flex;
+    position:relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.add{
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    left:0;
+    right:0;
+    background-color: rgba(255,255,255,0.5);
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s, height 0.2s;
+}
+.add:hover{
+    height:170px;
+    background-color: rgba(255,255,255,0.75)
+}
+.add button{
+    font-size: 40px;
+    padding: 20px;
+    border-radius: 100px;
+}
+
+.fin{
+    border-top: 1px solid black;
+    margin: 80px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:300px;
+    
+    font-family: Cedarville Cursive;
+}
+.about-us{
+    font-size: 70px;
+}
+.contact{
+    font-size: 50px;
+}
